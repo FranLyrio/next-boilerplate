@@ -6,7 +6,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"test": "jest --watch",
+		"test:watch": "jest --watch",
+		"test": "jest",
 		"generate": "yarn plop --plopfile ./generators/plopfile.js",
 		"storybook": "start-storybook -s ./public -p 6006",
 		"build-storybook": "build-storybook -s ./public"
