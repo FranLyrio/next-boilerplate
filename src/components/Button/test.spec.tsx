@@ -5,7 +5,7 @@ import Button from '.';
 
 describe('<Button />', () => {
 	it('should render the heading', () => {
-		const { container } = render(<Button />);
+		render(<Button />);
 
 		const heading = screen.getByRole('heading', { name: /Button/i });
 
