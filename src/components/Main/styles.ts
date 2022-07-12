@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'next/image';
 
 export const Wrapper = styled.main`
 	background-color: #06092b;
@@ -27,7 +28,6 @@ export const Description = styled.h2`
 	font-weight: 400;
 `;
 
-export const Illustration = styled.img`
+export const Illustration = styled(Image).attrs({ width: 200, height: 200 })`
 	margin-top: 3rem;
-	width: min(30rem, 100%);
 `;
