@@ -65,7 +65,7 @@ exports[`<Main /> should render the heading 1`] = `
       />
     </span>
     <img
-      alt="Um desenvolvedor de frente para uma tebla com código"
+      alt="Um desenvolvedor de frente para uma tela com código"
       class="c3"
       data-nimg="intrinsic"
       decoding="async"
