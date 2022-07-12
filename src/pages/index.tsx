@@ -8,7 +8,8 @@ export async function getStaticProps() {
 	return {
 		props: {
 			title: 'Next Boilerplate',
-			description: 'A simple boilerplate for next projects'
+			description:
+				'A simple project starter to work with TypeScript, React, Next.js and Styled Components'
 		}
 	};
 }
