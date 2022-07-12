@@ -6,4 +6,9 @@ export default {
 	component: Main
 } as ComponentMeta<typeof Main>;
 
-export const Basic: ComponentStory<typeof Main> = () => <Main />;
+export const Basic: ComponentStory<typeof Main> = (args) => <Main {...args} />;
+Basic.args = {
+	title: 'Welcome!',
+	description:
+		'A simple project starter to work with TypeScript, React, Next.js and Styled Components'
+};
